@@ -1,9 +1,10 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Authentic Filipino Food and Dishes</title>
+    <title>PVEN</title>
     <!-- bootstrap css-->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <!--main css-->
@@ -29,7 +30,7 @@
                     <a href="#" class="mr-2 primary-color"><i class="fab fa-twitter fa-2x"></i></a>
                     <a href="#" class="mr-2 primary-color"><i class="fab fa-yelp fa-2x"></i></a>
                 </div>
-                <h2 class="primary-color p-2 text-capitalize">PVEN foodies </h2>
+                <h2 class="primary-color p-2 text-capitalize">Place for foodies </h2>
             </div>
         </div>
     </div>
@@ -42,18 +43,20 @@
                     <div class="banner text-center">
                         <h1 class="display-1 text-capitalize w-50 mx-auto">
                             <strong class="primary-color">Authentic Filipino Food and Dishes</strong>
-                       
+                        </h1>
+                        <a href="order part/order.html" class="btn main-btn sushi-btn my-4 text-capitalize">order online</a>
+                        <a href="book.html" class="btn main-btn sushi-btn my-4 text-capitalize">book tables</a>
                     </div>
                 </div>
             </div>
         </div>
 
-        <a href="#Gallery" class="btn header-link primary-color"><i class="fas fa-arrow-down"></i></a>
+        <a href="#special-items" class="btn header-link primary-color"><i class="fas fa-arrow-down"></i></a>
     </header>
     <!--end of header section-->
     <!--navbar-->
     <nav class="navbar navbar-expand-lg">
-        <a href="#" class="navbar-brand text-uppercase primary-color">PVEN Foodies</a>
+        <a href="#" class="navbar-brand text-uppercase primary-color">PVEN</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mynavbar">
             <div class="toggler-btn">
                 <div class="bar bar1"></div>
@@ -65,7 +68,7 @@
         <!--links-->
         <div class="collapse navbar-collapse" id="mynavbar">
             <ul class="navbar-nav mx-auto">
-                <li class="nav-item">
+                 <li class="nav-item">
                     <a href="#" class="nav-link text-capitalize">Home</a>
                 </li>
                 <li class="nav-item">
@@ -91,8 +94,8 @@
     <!--end of navbar-->
     <!--menuitems-->
     <section class="py-5" id="Gallery">
-        <div class="row container my-5">
-            
+        <div class="container my-5">
+            <div class="row parent-container">
                 <!--menu items-->
                 <div class="col-10 mx-auto col-sm-6 col-lg-4 my-3">
                     <div class="item-container">
@@ -182,18 +185,40 @@
             </div>
         </div>
     </section>
+    
     <!--end of menuitems-->
 
-    </div>
+    
 
 
     <!--about-->
-	<div style>
     <section id="About" class="py-5">
-	<div>
- 
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 my-4">
+                    <h1 class="text-uppercase display-3">About us</h1>
+                    <h2 class="text-muted"></h2>Hi! I'm Princess Ventinilla from Isabela
+					I'm 20 years old. I graguated SHS at Cauayan City National High School,
+					Currently studying in SVFC and I am a BSIT student.
+					<p>My Hobbies are to play instruments and read books.</p><br><br>
+                    <a href="#Home" class="btn main-btn my-4 text-capitalize">Home</a>
+                </div>
+                <div class="col-md-6 about-pictures my-4 d-none d-lg-block">
+                    <img src="me1.jpg" alt="menu" class="img-1 img-thumbnail about-image">
+                    <img src="me2.jpg" alt="menu" class="img-3 img-thumbnail about-image">
+                    <img src="me3.jpg" alt="menu" class="img-2 img-thumbnail about-image">
+                    <img src="me4.jpg" alt="menu" class="img-4 img-thumbnail about-image">
+                    <img src="me5.jpg" alt="menu" class="img-5 img-thumbnail about-image">
+                </div>
+            </div>
+        </div>
 
-  <div style="text-align:center">
+    </section>
+    <!--end of about-->
+
+    <!--reviews-->
+    <section id="Contact" class="py-5">
+        <div style="text-align:center">
     <h1>Contact Us</h1>
     <p> leave us a message:</p>
   </div>
@@ -220,7 +245,12 @@
         <input type="submit" value="Submit">
       </form>
     </div>
-	<style>
+	
+</div>
+
+  </div>
+</div>
+<style>
 
 
 /* Style inputs */
@@ -270,10 +300,6 @@ input[type=submit]:hover {
   
 }
 </style>
-</div>
-
-  </div>
-</div>
 
 
     <!--end of reviews-->
@@ -292,6 +318,7 @@ input[type=submit]:hover {
                 </div>
             </div>
         </div>
+        <!--end of social icons-->
         <!--end of social icons-->
         <a href="#top-icons" id="back-to-top" class="p-1"><i class="fas fa-arrow-up primary-color fa-3x"></i></a>
     
